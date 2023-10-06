@@ -4,10 +4,11 @@ import java.sql.Date;
 
 public class Member {
     private int id;
+    private String citizen_id;
     private String firstname;
     private String lastname;
     private int gender;
-    private Date birthDate;
+    private Date birth_date;
     private String address;
     private String mobile;
     private String email;
@@ -19,91 +20,4 @@ public class Member {
     private double weight;
     private double height;
     private String chronic_disease;
-
-    
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
-    }
-    public String getFirstname() {
-        return firstname;
-    }
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-    public String getLastname() {
-        return lastname;
-    }
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
-    public int getGender() {
-        return gender;
-    }
-    public void setGender(int gender) {
-        this.gender = gender;
-    }
-    public Date getBirthDate() {
-        return birthDate;
-    }
-    public void setBirthDate(Date birthDate) {
-        this.birthDate = birthDate;
-    }
-    public String getAddress() {
-        return address;
-    }
-    public void setAddress(String address) {
-        this.address = address;
-    }
-    public String getMobile() {
-        return mobile;
-    }
-    public void setMobile(String mobile) {
-        this.mobile = mobile;
-    }
-    public String getEmail() {
-        return email;
-    }
-    public void setEmail(String email) {
-        this.email = email;
-    }
-    public String getPassword() {
-        return password;
-    }
-    public void setPassword(String password) {
-        this.password = password;
-    }
-    public String getAllergic() {
-        return allergic;
-    }
-    public void setAllergic(String allergic) {
-        this.allergic = allergic;
-    }
-    public String getBlood_group() {
-        return blood_group;
-    }
-    public void setBlood_group(String blood_group) {
-        this.blood_group = blood_group;
-    }
-    public double getWeight() {
-        return weight;
-    }
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
-    public double getHeight() {
-        return height;
-    }
-    public void setHeight(double height) {
-        this.height = height;
-    }
-    public String getChronic_disease() {
-        return chronic_disease;
-    }
-    public void setChronic_disease(String chronic_disease) {
-        this.chronic_disease = chronic_disease;
-    }
-    
 }
